@@ -7,7 +7,7 @@ Operand:            count:
 <operands.keys:{k |<k> : <operands.(k)>}; separator="\n">
 
 
-Halstead-parameters:
+Halstead-Metrics:
 
 Number of Operators         N1:         <N1>
 Number of Operands          N2:         <N2>
