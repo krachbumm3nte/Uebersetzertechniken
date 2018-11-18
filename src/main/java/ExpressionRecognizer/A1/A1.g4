@@ -2,8 +2,7 @@ grammar A1;
 
 
 
-p1
-rog : expr+;
+prog : expr+;
 
 expr : expr ('*'|'/') expr
         | expr ('+'|'-') expr
