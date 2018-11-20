@@ -9,5 +9,8 @@
         <module name="uebsPr" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="uebsPr" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

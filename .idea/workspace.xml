@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc6b5b9-6585-4398-9064-1794b3315684" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java" afterDir="false" />
+    <list default="true" id="f24f9744-e2dd-4f09-b25c-e1595460be55" name="Default Changelist" comment="semi-finished A4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/Calculator.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/recognizer2.g4" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,96 +23,53 @@
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-230925900">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="31" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="34" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="1" />
-          <entry key="dummy" value="44" />
-          <entry key="g4" value="3974" />
-          <entry key="java" value="5519" />
-          <entry key="st" value="1030" />
-          <entry key="stg" value="53" />
-          <entry key="timestamps" value="34" />
-          <entry key="txt" value="109" />
-          <entry key="xml" value="5" />
+          <entry key="g4" value="868" />
+          <entry key="java" value="390" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ANTLR v4 grammar file" value="3974" />
-          <entry key="C++" value="1" />
-          <entry key="JAVA" value="5519" />
-          <entry key="PLAIN_TEXT" value="1270" />
-          <entry key="XML" value="5" />
+          <entry key="ANTLR v4 grammar file" value="868" />
+          <entry key="JAVA" value="390" />
+          <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="7" />
-          <entry key="class" value="12" />
-          <entry key="g4" value="15" />
-          <entry key="java" value="76" />
-          <entry key="st" value="2" />
-          <entry key="stg" value="2" />
-          <entry key="timestamps" value="1" />
-          <entry key="tokens" value="4" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="g4" value="1" />
+          <entry key="java" value="11" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ANTLR v4 grammar file" value="15" />
-          <entry key="C++" value="7" />
-          <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="76" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="XML" value="3" />
+          <entry key="ANTLR v4 grammar file" value="1" />
+          <entry key="JAVA" value="11" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-              <folding>
-                <element signature="e#21#386#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="90">
+              <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,29 +77,91 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/asdf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A2/CalculatorParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-72">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>auto\, extern\, inline\, register\, static\, typedef\, virtual\, mtuable\, friend\, volatile\,asm\, break\,\n                                                                                        case\, class\, continue\, default\, delete\, while\(\, else\, enum\, for\(\,\n                                                                                        goto\, if\(\, new\, operator\, private\, protected\, public\, return\,\n                                                                                        sizeof\, struct\, switch\(\, this\, union\, namespace\, using\, try\, catch\,\n                                                                                        throw\, const_cast\, static_cast\, dynamic_cast\, reinterpret_cast\,\n                                                                                        typeid\, template\, explicit\, true\, false\, typename\,  \n</find>
-      <find>error, nut</find>
-      <find>der erste</find>
-      <find>fore</find>
-      <find>filter</find>
-      <find>forall</find>
-      <find>foreach</find>
-      <find>tost</find>
-      <find>error,</find>
-      <find>TERM</find>
-      <find>jun</find>
-      <find>DIGIT</find>
+      <find>Context</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,57 +170,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/time/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/time/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/time/Time.g4" />
-        <option value="$PROJECT_DIR$/src/main/resources/timestamps" />
-        <option value="$PROJECT_DIR$/src/main/resources/adresses.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/ipAddress/IP.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/ipAddress/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ipAddress/IPTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/structureTests/ListMapJUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/structureTests/ListJUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/structureTests/ListSetJUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/structureTests/TreeJUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/structureTests/TreeSetJUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Beispiel.c" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/Map.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/Set_.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/ListMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/MultiSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/ListSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/ListMultiSet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/structureTests/ListMultiSetJUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/multiset/Multiset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structures/multiset/ListMultiset.java" />
-        <option value="$PROJECT_DIR$/Inf2/com/fpinjava/common/Stream.java" />
-        <option value="$PROJECT_DIR$/Inf2/common/List.java" />
-        <option value="$PROJECT_DIR$/Inf2/tetrisiq/Map.java" />
-        <option value="$PROJECT_DIR$/Inf2/tetrisiq/ListMap.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/halsteadLexer/test.stg" />
-        <option value="$PROJECT_DIR$/src/main/java/halsteadLexer/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/halsteadLexer/test.st" />
-        <option value="$PROJECT_DIR$/src/main/java/halsteadLexer/Halstead.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/halsteadLexer/HalsteadTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/halsteadLexer/halstead.st" />
-        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1/asdf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1/A1Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A2/A2.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A3/A3.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1/ExpressionRecognizerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/ExprA3Test.java" />
-        <option value="$PROJECT_DIR$/src/test/ExpressionRecognizerTest2.java" />
-        <option value="$PROJECT_DIR$/src/test/ExpressionRecognizerTestt3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/A1.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1/A1.g4" />
-        <option value="$PROJECT_DIR$/src/test/ExpressionRecognizerTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer2.g4" />
         <option value="$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java" />
-        <option value="$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Listener.java" />
-        <option value="$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4" />
+        <option value="$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java" />
+        <option value="$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java" />
+        <option value="$PROJECT_DIR$/gen/expressionCalculator/A2/CalculatorParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/ParseTreeListeners.java" />
       </list>
     </option>
   </component>
@@ -204,68 +190,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="964" />
     <option name="width" value="956" />
     <option name="height" value="1035" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>GSPGrailsGroovy</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>PerformanceLintAndroid</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,7 +220,14 @@
               <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
               <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
               <item name="gen" type="462c0819:PsiDirectoryNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
+              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
+              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="A2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +270,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="A2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ExpressionRecognizer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,7 +288,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ExpressionRecognizer" type="462c0819:PsiDirectoryNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
+              <item name="A4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
@@ -352,49 +306,23 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4::/auto-gen" value="true" />
     <property name="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4::/gen-listener" value="true" />
-    <property name="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4::/gen-visitor" value="false" />
-    <property name="$PROJECT_DIR$/src/main/java/halsteadLexer/Halstead.g4::/auto-gen" value="true" />
-    <property name="$PROJECT_DIR$/src/main/java/halsteadLexer/Halstead.g4::/gen-listener" value="true" />
-    <property name="$PROJECT_DIR$/src/main/java/halsteadLexer/Halstead.g4::/gen-visitor" value="false" />
-    <property name="$PROJECT_DIR$/src/main/java/ipAddress/IP.g4::/auto-gen" value="true" />
-    <property name="$PROJECT_DIR$/src/main/java/ipAddress/IP.g4::/gen-listener" value="true" />
-    <property name="$PROJECT_DIR$/src/main/java/ipAddress/IP.g4::/gen-visitor" value="false" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4::/gen-visitor" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542548580524" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542739713138" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/structures" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ipAddress" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1" />
-      <recent name="$PROJECT_DIR$/dataStructures" />
-      <recent name="$PROJECT_DIR$/src/test/java/structureTests" />
-      <recent name="$PROJECT_DIR$/src/main/java/ipAddress" />
-      <recent name="$PROJECT_DIR$/src/main/java/time" />
+      <recent name="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4" />
+      <recent name="$PROJECT_DIR$/src/main/java/expressionCalculator/A2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,11 +337,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressionCalculatorTest1.A1Test">
-    <configuration name="ExpressionCalculatorTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestEvalWithProps">
+    <configuration name="TestEvalWithProps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExpressionRecognizer.A4.TestEvalWithProps" />
       <module name="uebsPr" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionCalculatorTest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExpressionRecognizer.A4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="asdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="expressionCalculator.asdf" />
+      <module name="uebsPr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expressionCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -428,50 +374,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionRecognizerTest1.A1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionCalculatorTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uebsPr" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionRecognizerTest1" />
-      <option name="METHOD_NAME" value="A1Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionRecognizerTest2.A1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uebsPr" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionRecognizerTest2" />
-      <option name="METHOD_NAME" value="A1Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionRecognizerTestt3.A1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uebsPr" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionRecognizerTestt3" />
-      <option name="METHOD_NAME" value="A1Test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ExpressionCalculatorTest2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ExpressionRecognizerTest1.A1Test" />
-      <item itemvalue="JUnit.ExpressionRecognizerTest2.A1Test" />
-      <item itemvalue="JUnit.ExpressionRecognizerTestt3.A1Test" />
       <item itemvalue="JUnit.ExpressionCalculatorTest1.A1Test" />
-      <item itemvalue="JUnit.ExpressionCalculatorTest1" />
+      <item itemvalue="Application.asdf" />
+      <item itemvalue="JUnit.ExpressionCalculatorTest2" />
+      <item itemvalue="Application.TestEvalWithProps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEvalWithProps" />
+        <item itemvalue="JUnit.ExpressionCalculatorTest2" />
+        <item itemvalue="Application.asdf" />
         <item itemvalue="JUnit.ExpressionCalculatorTest1.A1Test" />
-        <item itemvalue="JUnit.ExpressionCalculatorTest1" />
-        <item itemvalue="JUnit.ExpressionRecognizerTestt3.A1Test" />
-        <item itemvalue="JUnit.ExpressionRecognizerTest2.A1Test" />
-        <item itemvalue="JUnit.ExpressionRecognizerTest1.A1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +402,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4cc6b5b9-6585-4398-9064-1794b3315684" name="Default Changelist" comment="" />
+      <changelist id="f24f9744-e2dd-4f09-b25c-e1595460be55" name="Default Changelist" comment="" />
       <created>1539345269700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -518,14 +440,18 @@
       <workItem from="1542127423531" duration="1150000" />
       <workItem from="1542209070203" duration="3155000" />
       <workItem from="1542371806135" duration="2803000" />
-      <workItem from="1542544164574" duration="2978000" />
+      <workItem from="1542544164574" duration="8290000" />
+      <workItem from="1542721160009" duration="3897000" />
+      <workItem from="1542726827586" duration="2975000" />
+      <workItem from="1542737305936" duration="92000" />
+      <workItem from="1542739175163" duration="538000" />
     </task>
-    <task id="LOCAL-00001" summary="ready for delivery">
-      <created>1540306364808</created>
+    <task id="LOCAL-00001" summary="semi-finished A4">
+      <created>1542737382160</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1540306364808</updated>
+      <updated>1542737382161</updated>
     </task>
     <task id="LOCAL-00002" summary="added Expressionrecognizer, tests unfinished">
       <created>1541545874682</created>
@@ -548,58 +474,56 @@
       <option name="project" value="LOCAL" />
       <updated>1542545821319</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished A1">
+      <created>1542548637781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542548637781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExprA3Test_A1Test - 2018.11.07 at 00h 33m 00s.xml">
-      <configuration name="ExprA3Test.A1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionRecognizerTest2_A1Test - 2018.11.07 at 00h 35m 02s.xml">
-      <configuration name="ExpressionRecognizerTest2.A1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionRecognizerTestt3_A1Test - 2018.11.07 at 00h 36m 15s.xml">
-      <configuration name="ExpressionRecognizerTestt3.A1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.16 at 14h 12m 44s.xml">
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 32m 56s.xml">
       <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.16 at 14h 13m 33s.xml">
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 34m 30s.xml">
       <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.18 at 14h 32m 31s.xml">
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 35m 49s.xml">
       <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.18 at 14h 33m 36s.xml">
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 36m 02s.xml">
       <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.18 at 14h 37m 11s.xml">
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 36m 49s.xml">
       <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.18 at 14h 38m 16s.xml">
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 37m 19s.xml">
       <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.18 at 14h 41m 42s.xml">
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 38m 19s.xml">
       <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 38m 31s.xml">
+      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 54m 12s.xml">
+      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExpressionCalculatorTest2 - 2018.11.20 at 19h 43m 06s.xml">
+      <configuration name="ExpressionCalculatorTest2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73406000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="11336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1035" extended-state="6" />
+    <frame x="964" y="0" width="956" height="1035" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17289221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37362638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -618,7 +542,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289183" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.50441504" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.4271523" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32671082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -642,242 +566,115 @@
     <MESSAGE value="added Expressionrecognizer, tests unfinished" />
     <MESSAGE value="tests done" />
     <MESSAGE value="beginning of A4" />
-    <option name="LAST_COMMIT_MESSAGE" value="beginning of A4" />
+    <MESSAGE value="finished A1" />
+    <MESSAGE value="semi-finished A4" />
+    <option name="LAST_COMMIT_MESSAGE" value="semi-finished A4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/structureTests/ListMultiSetJUnitTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/structures/List.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/structures/ListMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/structures/ListMultiSet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/structures/multiset/ListMultiset.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/structures/multiset/Multiset.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/structures/multiset/ListMultiset.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/list/TestListGroupBy.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/stack/TestArrayStack.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/com/fpinjava/common/Stream.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/lang/Object.class" />
-    <entry file="file://$PROJECT_DIR$/Inf2/multiset/treeMultiset/TreeMultiset.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/tetrisiq/Set.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/tetrisiq/Map.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/tetrisiq/multiset/ListMultiset.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/tetrisiq/ListMap.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/common/List.java" />
-    <entry file="file://$PROJECT_DIR$/Inf2/tetrisiq/treemap/TreeMap.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/Multiset.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/TreeMultiset.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/Multisets.class" />
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/util/Map.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/stringtemplate/4.0.2/stringtemplate-4.0.2.jar!/org/stringtemplate/v4/ST.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Beispiel.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1818">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/AESWrapCipher.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/halsteadLexer/halstead.st">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/halsteadLexer/Halstead.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/halsteadLexer/HalsteadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/asdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1/ExpressionRecognizerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/time/TimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/ExpressionRecognizer/A1/A1BaseListener.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A2/A2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ExpressionRecognizerTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ExpressionRecognizerTestt3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" selection-start-column="7" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A2/A2.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1/A1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A1/A1.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A3/A3.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ExpressionRecognizerTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar!/org/antlr/v4/runtime/Parser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Lexer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A2/recognizer2.g4" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1BaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="195" column="50" selection-start-line="195" selection-start-column="50" selection-end-line="195" selection-end-column="50" />
-          <folding>
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1798#1799#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#2719#2720#0" expanded="true" />
-            <element signature="e#2770#2771#0" expanded="true" />
-            <element signature="e#2838#2839#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
-            <element signature="e#4044#4045#0" expanded="true" />
-            <element signature="e#4094#4095#0" expanded="true" />
-            <element signature="e#4129#4130#0" expanded="true" />
-            <element signature="e#4180#4181#0" expanded="true" />
-            <element signature="e#4323#4324#0" expanded="true" />
-            <element signature="e#4360#4361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="90">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4">
+    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        <state relative-caret-position="1185">
+          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
-            <element signature="e#21#386#1" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/asdad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A2/CalculatorParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/asdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/ParseTreeListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -922,7 +719,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11 oracle</last-edited>
+          <last-edited>11 openjdk</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -945,31 +742,7 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
