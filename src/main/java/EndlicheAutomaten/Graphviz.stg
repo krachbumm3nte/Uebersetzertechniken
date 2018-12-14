@@ -1,0 +1,8 @@
+group graphviz;
+
+
+open() ::= "digraph {"
+close() ::= "}"
+addNode(name,color) ::= "\"<name>\"[color=\"<color>\",style = filled];"
+addTransition(from, to, label) ::= "<from> -> <to>[label=\"<label>\",weight=\"0.2\"];"
+

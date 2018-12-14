@@ -1,0 +1,10 @@
+group JSON;
+
+open() ::= "{ <\n>"
+close() ::= "} <\n>"
+kv(k,v) ::= "\"<k>\" : \"<v>\" <\n>"
+sep() ::= ","
+openL(k) ::= "\"<k>\" : [ <\n>"
+closeL() ::= "] <\n>"
+openK(k) ::= "\"<k>\" : { <\n>"
+addlist(v) ::= "\"<v>\" <\n>"

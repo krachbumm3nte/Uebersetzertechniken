@@ -1,8 +1,8 @@
 package ExpressionRecognizer.A4;
 
-import expressionCalculator.A2.CalculatorBaseListener;
-import expressionCalculator.A2.CalculatorLexer;
-import expressionCalculator.A2.CalculatorParser;
+import ExpressionCalculator.A2.CalculatorBaseListener;
+import ExpressionCalculator.A2.CalculatorLexer;
+import ExpressionCalculator.A2.CalculatorParser;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
