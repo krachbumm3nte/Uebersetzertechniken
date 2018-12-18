@@ -9,6 +9,11 @@ public class XMLEmitter extends JsonToXmlBaseListener {
     public ParseTreeProperty<ST> xml = new ParseTreeProperty<ST>();
     STGroup templates = new STGroupFile("/home/alex/FHL-Workspace/uebs-1819/src/main/java/de/tetrisiq/uebs/Jocker/JsonToXml/XML.stg");
 
+    public static String stripQuotes(String s) {
+        if (s == null || s.charAt(0) != '"') return s;
+        return s.substring(1, s.length() - 1);
+    }
+
     @Override
     public void exitJson(JsonToXmlParser.JsonContext ctx) {
         xml.put(ctx, xml.get(ctx.getChild(0)));
@@ -77,11 +82,6 @@ public class XMLEmitter extends JsonToXmlBaseListener {
         ST st = templates.getInstanceOf("value");
         st.add("x", x);
         return st;
-    }
-
-    public static String stripQuotes(String s) {
-        if ( s==null || s.charAt(0)!='"' ) return s;
-        return s.substring(1, s.length()-1);
     }
 }
 

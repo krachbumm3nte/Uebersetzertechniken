@@ -15,7 +15,21 @@ public class TestEvalWithProps extends CalculatorBaseListener {
     Map<ParseTree, Double> value = new IdentityHashMap<>();
     //ParseTreeProperty<Double> value = new ParseTreeProperty<>();
 
-    TestEvalWithProps() {}
+    TestEvalWithProps() {
+    }
+
+    public static void main(String[] args) {
+        String s = "1+2";
+        ANTLRInputStream input = new ANTLRInputStream(s);
+        CalculatorLexer lexer = new CalculatorLexer(input);
+        CalculatorParser parser = new CalculatorParser(new CommonTokenStream(lexer));
+        ParseTree tree = parser.stat();
+        ParseTreeWalker walker = new ParseTreeWalker();
+        TestEvalWithProps bla = new TestEvalWithProps();
+        walker.walk(bla, tree);
+        System.out.println(bla.getValue(tree));
+
+    }
 
     public void exitInt(CalculatorParser.IntContext ctx) {
         String doubleText = ctx.INT().getText();
@@ -25,7 +39,6 @@ public class TestEvalWithProps extends CalculatorBaseListener {
     public void exitAssign(CalculatorParser.AssignContext ctx) {
         System.out.println("assign");
     }
-
 
     /**
      * expr op=('+'|'-') expr
@@ -58,19 +71,5 @@ public class TestEvalWithProps extends CalculatorBaseListener {
     public double getValue(ParseTree node) {
         System.out.println(value);
         return value.get(node);
-    }
-
-
-    public static void main(String[] args) {
-        String s = "1+2";
-        ANTLRInputStream input = new ANTLRInputStream(s);
-        CalculatorLexer lexer = new CalculatorLexer(input);
-        CalculatorParser parser = new CalculatorParser(new CommonTokenStream(lexer));
-        ParseTree tree = parser.stat();
-        ParseTreeWalker walker = new ParseTreeWalker();
-        TestEvalWithProps bla = new TestEvalWithProps();
-        walker.walk(bla, tree);
-        System.out.println(bla.getValue(tree));
-
     }
 }

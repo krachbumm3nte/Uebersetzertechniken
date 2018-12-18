@@ -31,18 +31,18 @@ public class DeaCheck extends CSVBaseListener {
         if (ctx.getText().contains("q")) { // step over first row
             String color = "";
             String fromName = ctx.children.get(0).getText();
-            if (ctx.children.get(0).getText().contains("->")){
+            if (ctx.children.get(0).getText().contains("->")) {
                 color = "green";
-                fromName = fromName.replace("->","");
+                fromName = fromName.replace("->", "");
             }
-            if(ctx.children.get(0).getText().contains("*")) {
+            if (ctx.children.get(0).getText().contains("*")) {
                 color = "red";
-                fromName = fromName.replace("*","");
+                fromName = fromName.replace("*", "");
             }
 
-            stack.push(template.getInstanceOf("addNode").add("name",fromName).add("color",color));
-            stack.push(template.getInstanceOf("addTransition").add("from", fromName).add("to",ctx.children.get(2).getText()).add("label", 0));
-            stack.push(template.getInstanceOf("addTransition").add("from", fromName).add("to",ctx.children.get(4).getText()).add("label", 1));
+            stack.push(template.getInstanceOf("addNode").add("name", fromName).add("color", color));
+            stack.push(template.getInstanceOf("addTransition").add("from", fromName).add("to", ctx.children.get(2).getText()).add("label", 0));
+            stack.push(template.getInstanceOf("addTransition").add("from", fromName).add("to", ctx.children.get(4).getText()).add("label", 1));
         }
     }
 
@@ -59,16 +59,18 @@ public class DeaCheck extends CSVBaseListener {
     }
 
     private int convertFromQtoInt(String i) {
-        return Integer.parseInt(i.replace("*","").replace("->","").replace("q",""))+1;
+        return Integer.parseInt(i.replace("*", "").replace("->", "").replace("q", "")) + 1;
     }
 
 
-    @Override public void enterCsvFile(CSVParser.CsvFileContext ctx) {
+    @Override
+    public void enterCsvFile(CSVParser.CsvFileContext ctx) {
         stack.push(template.getInstanceOf("open"));
     }
 
 
-    @Override public void exitCsvFile(CSVParser.CsvFileContext ctx) {
+    @Override
+    public void exitCsvFile(CSVParser.CsvFileContext ctx) {
         stack.push(template.getInstanceOf("close"));
     }
 

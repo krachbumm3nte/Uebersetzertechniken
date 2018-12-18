@@ -7,14 +7,16 @@ import org.antlr.v4.runtime.Token;
 import org.stringtemplate.v4.ST;
 import org.stringtemplate.v4.STGroup;
 import org.stringtemplate.v4.STGroupDir;
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class HalsteadTest {
 
     public static void main(String[] args) throws Exception {
         CharStream input;
         // Pick an input stream (filename from commandline or stdin)
-        if (args.length>0) input = new ANTLRFileStream(args[0]);
+        if (args.length > 0) input = new ANTLRFileStream(args[0]);
         else input = new ANTLRInputStream(System.in);
 
         HalsteadLexer lex = new HalsteadLexer(input);
@@ -25,7 +27,7 @@ public class HalsteadTest {
 
         do {
             t = lex.nextToken();
-            switch (t.getType()){
+            switch (t.getType()) {
                 case HalsteadLexer.OPERAND:
                     insertMultiSet(operands, t.getText());
                     break;
@@ -37,7 +39,7 @@ public class HalsteadTest {
                     break;
 
             }
-        } while ( t.getType()!=Token.EOF );
+        } while (t.getType() != Token.EOF);
 
 
         int N1 = operators.values().stream().reduce(0, Integer::sum);
@@ -46,10 +48,9 @@ public class HalsteadTest {
         int n2 = operands.size();
         int N = N1 + N2;
         int n = n1 + n2;
-        double V = N * (Math.log(n)/Math.log(2));
-        double D = (double)(n1 * N2)/(2 * n2);
+        double V = N * (Math.log(n) / Math.log(2));
+        double D = (double) (n1 * N2) / (2 * n2);
         double E = D * V;
-
 
 
         STGroup group = new STGroupDir("/home/johannes/IdeaProjects/uebsPr/src/main/java/HalsteadLexer");
@@ -69,7 +70,6 @@ public class HalsteadTest {
         st.add("E", E);
 
         System.out.println(st.render());
-
 
 
     }

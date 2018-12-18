@@ -49,7 +49,7 @@ public class XmlToJsonWalker extends XmlToJsonParserBaseListener {
         String k = ctx.Name().toString().substring(1).split(",")[0];
         ST st;
         if (openKomplex(v)) { // to close the tag
-            if(json.peek().getName().contains("sep")) {
+            if (json.peek().getName().contains("sep")) {
                 //last elemet was an seperator and now we want to close a tag
                 json.pop();
             }
@@ -58,7 +58,7 @@ public class XmlToJsonWalker extends XmlToJsonParserBaseListener {
             return;
         }
         if (openList(v)) {
-            if(json.peek().getName().contains("sep")) {
+            if (json.peek().getName().contains("sep")) {
                 //last elemet was an seperator and now we want to close a tag
                 json.pop();
             }
@@ -74,7 +74,7 @@ public class XmlToJsonWalker extends XmlToJsonParserBaseListener {
             json.push(template.getInstanceOf("sep"));
 
         } else {
-            if(json.peek().getName().contains("close")) {
+            if (json.peek().getName().contains("close")) {
                 //last elemet was an close element
                 json.push(template.getInstanceOf("sep"));
             }

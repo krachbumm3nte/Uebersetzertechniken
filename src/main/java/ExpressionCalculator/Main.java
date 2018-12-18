@@ -11,11 +11,11 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 public class Main {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         String inputfile = null;
-        if ( args.length>0) inputfile = args[0];
+        if (args.length > 0) inputfile = args[0];
         InputStream is = System.in;
-        if ( inputfile != null) is = new FileInputStream(inputfile);
+        if (inputfile != null) is = new FileInputStream(inputfile);
         ANTLRInputStream input = new ANTLRInputStream("2+2\n" +
                 "15**2\n" +
                 "13==57\n" +
@@ -31,7 +31,7 @@ public class Main {
                 "a\n" +
                 "3<5\n" +
                 "a=3>=5?13:23\n");
-                recognizer1Lexer lexer = new recognizer1Lexer(input);
+        recognizer1Lexer lexer = new recognizer1Lexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         recognizer1Parser parser = new recognizer1Parser(tokens);
         ParseTree tree = parser.prog();

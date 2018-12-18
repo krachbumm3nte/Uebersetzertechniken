@@ -1,0 +1,16 @@
+group pcode;
+
+global(val) ::= ".globals <val>"
+funkDec(name) ::= ".def <name>: args=0, locals=0"
+assignStat(name, val) ::="
+    iconst <val>
+    gstore <name>"
+
+printStat() ::= "print"
+ifStat(a,b,cond,cont,brf) ::="
+load <a>
+iconst <b>
+<cond>
+<brf> <cont>"
+
+else(cont)::= "<cont>:"
