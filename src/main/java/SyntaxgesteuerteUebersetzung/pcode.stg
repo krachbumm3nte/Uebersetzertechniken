@@ -1,16 +1,22 @@
-group pcode;
+group P-Code;
+
 
 global(val) ::= ".globals <val>"
 funkDec(name) ::= ".def <name>: args=0, locals=0"
-assignStat(name, val) ::="
-    iconst <val>
-    gstore <name>"
+assignStat(name) ::= "gstore <name>"
+loadVar(a) ::= "gload <a>"
+loadConst(a) ::= "iconst <a>"
 
 printStat() ::= "print"
-ifStat(a,b,cond,cont,brf) ::="
-load <a>
-iconst <b>
-<cond>
-<brf> <cont>"
-
 else(cont)::= "<cont>:"
+ReturnStat() ::= "ret"
+add() ::= "iadd"
+sub() ::= "isub"
+mult() ::= "imul"
+call(func) ::= "call <func>"
+
+ilt() ::= "ilt"
+ieq() ::= "ieq"
+brf(br) ::= "brf <br>"
+brt(br) ::= "brt <br>"
+br(br) ::= "br <br>"

@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f24f9744-e2dd-4f09-b25c-e1595460be55" name="Default Changelist" comment="semi-finished A4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/Calculator.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/recognizer2.g4" beforeDir="false" />
+    <list default="true" id="f24f9744-e2dd-4f09-b25c-e1595460be55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/ConvertAndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/ConvertAndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pcode.stg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pcode.stg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ClobalPcodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClobalPcodeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,40 +20,59 @@
     <session id="-230925900">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="g4" value="868" />
-          <entry key="java" value="390" />
-          <entry key="txt" value="26" />
+          <entry key="g4" value="2534" />
+          <entry key="java" value="2868" />
+          <entry key="stg" value="243" />
+          <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ANTLR v4 grammar file" value="868" />
-          <entry key="JAVA" value="390" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="ANTLR v4 grammar file" value="2534" />
+          <entry key="JAVA" value="2868" />
+          <entry key="PLAIN_TEXT" value="324" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="g4" value="1" />
-          <entry key="java" value="11" />
-          <entry key="xml" value="1" />
+          <entry key="class" value="2" />
+          <entry key="clobal" value="21" />
+          <entry key="csv" value="1" />
+          <entry key="g4" value="18" />
+          <entry key="java" value="81" />
+          <entry key="json" value="1" />
+          <entry key="md" value="1" />
+          <entry key="pcode" value="34" />
+          <entry key="png" value="4" />
+          <entry key="stg" value="10" />
+          <entry key="timestamps" value="1" />
+          <entry key="tokens" value="5" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ANTLR v4 grammar file" value="1" />
-          <entry key="JAVA" value="11" />
-          <entry key="XML" value="1" />
+          <entry key="ANTLR v4 grammar file" value="18" />
+          <entry key="CLASS" value="2" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="81" />
+          <entry key="JSON" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -66,52 +80,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="55" />
+            <state relative-caret-position="553">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#16#27#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="206">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2102#2103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/ConvertAndTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,27 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/asdf.java">
+        <entry file="file://$PROJECT_DIR$/src/test/ClobalPcodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A2/CalculatorParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="186">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,22 +130,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java">
+        <entry file="jar:///usr/lib/jvm/java-11-jdk/lib/src.zip!/java.base/java/io/FileInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="206">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pcode.stg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Context</find>
+      <find>name</find>
+      <find>locals=</find>
+      <find>exitv</find>
+      <find>exitfu</find>
+      <find>exitB</find>
+      <find>enterfun</find>
+      <find>exitas</find>
+      <find>main(</find>
+      <find>main</find>
+      <find>trace</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -172,15 +180,49 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer2.g4" />
         <option value="$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4" />
-        <option value="$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java" />
         <option value="$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java" />
         <option value="$PROJECT_DIR$/gen/expressionCalculator/A2/CalculatorParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/ParseTreeListeners.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/expressionCalculator/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/JSON.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/JsonToXmlNoST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/XML.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/XMLLexer.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/XML.stg" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/XMLParser.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/JSON.stg" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/XmlToJson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/XML2JSON/JsonToXml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/joker_json_xml/XmlToJson/XmlToJson/XmlToJsonWalker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/A6/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/A6/DeaCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/DeaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EndlicheAutomaten/DeaCheck.java" />
+        <option value="$PROJECT_DIR$/gen/HalsteadLexer/HalsteadLexer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Translator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/AssemblerLexer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/AssemblerParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/DisAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/BytecodeAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/FunctionSymbol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/LabelSymbol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/StackFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/StructSpace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/BytecodeDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pcode.stg" />
+        <option value="$PROJECT_DIR$/src/test/ClobalPcodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/ConvertAndTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Converter.java" />
       </list>
     </option>
   </component>
@@ -191,9 +233,116 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="964" />
     <option name="width" value="956" />
     <option name="height" value="1035" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>FreeMarker</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JBoss Seam</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Less</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LoggingJava</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,24 +363,6 @@
             <path>
               <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
               <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
-              <item name="gen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
-              <item name="gen" type="462c0819:PsiDirectoryNode" />
-              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
-              <item name="gen" type="462c0819:PsiDirectoryNode" />
-              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,53 +384,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="SyntaxgesteuerteUebersetzung" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
               <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="A1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
               <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="expressionCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="A2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ExpressionRecognizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ExpressionRecognizer" type="462c0819:PsiDirectoryNode" />
-              <item name="A4" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ClobalProgs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
               <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uebsPr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uebsPr" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,20 +415,40 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4::/auto-gen" value="false" />
+    <property name="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4::/gen-listener" value="true" />
+    <property name="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4::/gen-visitor" value="true" />
     <property name="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4::/auto-gen" value="true" />
     <property name="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4::/gen-listener" value="true" />
     <property name="$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4::/gen-visitor" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542739713138" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545162493893" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uebs-1819" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM" />
+      <recent name="$PROJECT_DIR$/src/main/java/joker_json_xml" />
       <recent name="$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4" />
       <recent name="$PROJECT_DIR$/src/main/java/expressionCalculator/A2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ExpressionRecognizer" />
+      <recent name="ExpressionCalculator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/XML2JSON/XmlToJson" />
+      <recent name="$PROJECT_DIR$/src/main/java/XML2JSON" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,13 +463,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestEvalWithProps">
-    <configuration name="TestEvalWithProps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExpressionRecognizer.A4.TestEvalWithProps" />
+  <component name="RunManager" selected="JUnit.ClobalPcodeTest.test1">
+    <configuration name="ConvertAndTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SyntaxgesteuerteUebersetzung.ConvertAndTest" />
       <module name="uebsPr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExpressionRecognizer.A4.*" />
+          <option name="PATTERN" value="SyntaxgesteuerteUebersetzung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,12 +477,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="asdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="expressionCalculator.asdf" />
+    <configuration name="Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interpreter" />
       <module name="uebsPr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SyntaxgesteuerteUebersetzung.pCodeVM.Interpreter" />
+      <module name="uebsPr" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/StackInterpreter/t.pcode -dump" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="expressionCalculator.*" />
+          <option name="PATTERN" value="SyntaxgesteuerteUebersetzung.pCodeVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,36 +498,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionCalculatorTest1.A1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EndlicheAutomaten.Test" />
+      <module name="uebsPr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EndlicheAutomaten.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClobalPcodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uebsPr" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionCalculatorTest1" />
-      <option name="METHOD_NAME" value="A1Test" />
+      <option name="MAIN_CLASS_NAME" value="ClobalPcodeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClobalPcodeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uebsPr" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClobalPcodeTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionCalculatorTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uebsPr" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExpressionCalculatorTest2" />
+      <option name="MAIN_CLASS_NAME" value="DeaTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ExpressionCalculatorTest1.A1Test" />
-      <item itemvalue="Application.asdf" />
-      <item itemvalue="JUnit.ExpressionCalculatorTest2" />
-      <item itemvalue="Application.TestEvalWithProps" />
+      <item itemvalue="Application.Interpreter" />
+      <item itemvalue="JUnit.DeaTest" />
+      <item itemvalue="Application.ConvertAndTest" />
+      <item itemvalue="JUnit.ClobalPcodeTest" />
+      <item itemvalue="JUnit.ClobalPcodeTest.test1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestEvalWithProps" />
-        <item itemvalue="JUnit.ExpressionCalculatorTest2" />
-        <item itemvalue="Application.asdf" />
-        <item itemvalue="JUnit.ExpressionCalculatorTest1.A1Test" />
+        <item itemvalue="JUnit.ClobalPcodeTest.test1" />
+        <item itemvalue="JUnit.ClobalPcodeTest" />
+        <item itemvalue="Application.ConvertAndTest" />
+        <item itemvalue="Application.Interpreter" />
+        <item itemvalue="Application.Interpreter" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +601,21 @@
       <workItem from="1542721160009" duration="3897000" />
       <workItem from="1542726827586" duration="2975000" />
       <workItem from="1542737305936" duration="92000" />
-      <workItem from="1542739175163" duration="538000" />
+      <workItem from="1542739175163" duration="586000" />
+      <workItem from="1542749656448" duration="7419000" />
+      <workItem from="1542790806467" duration="2148000" />
+      <workItem from="1543841788599" duration="3485000" />
+      <workItem from="1543923398028" duration="3497000" />
+      <workItem from="1543941777295" duration="949000" />
+      <workItem from="1543961429723" duration="631000" />
+      <workItem from="1544000397234" duration="429000" />
+      <workItem from="1544001703315" duration="256000" />
+      <workItem from="1544529524972" duration="2478000" />
+      <workItem from="1544704893980" duration="1193000" />
+      <workItem from="1544775944807" duration="8252000" />
+      <workItem from="1544980906554" duration="8552000" />
+      <workItem from="1545139960577" duration="4292000" />
+      <workItem from="1545161698281" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="semi-finished A4">
       <created>1542737382160</created>
@@ -453,77 +624,86 @@
       <option name="project" value="LOCAL" />
       <updated>1542737382161</updated>
     </task>
-    <task id="LOCAL-00002" summary="added Expressionrecognizer, tests unfinished">
-      <created>1541545874682</created>
+    <task id="LOCAL-00002" summary="finished A4">
+      <created>1542739731886</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1541545874682</updated>
+      <updated>1542739731886</updated>
     </task>
-    <task id="LOCAL-00003" summary="tests done">
-      <created>1541547455127</created>
+    <task id="LOCAL-00003" summary="finished A4 + extentions">
+      <created>1542757066299</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1541547455127</updated>
+      <updated>1542757066299</updated>
     </task>
-    <task id="LOCAL-00004" summary="beginning of A4">
-      <created>1542545821319</created>
+    <task id="LOCAL-00004" summary="A7 initial commit">
+      <created>1544778421769</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1542545821319</updated>
+      <updated>1544778421769</updated>
     </task>
-    <task id="LOCAL-00005" summary="finished A1">
-      <created>1542548637781</created>
+    <task id="LOCAL-00005" summary="A7 initial commit">
+      <created>1545161818571</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1542548637781</updated>
+      <updated>1545161818571</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 32m 56s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="DeaTest - 2018.12.11 at 13h 02m 33s.xml">
+      <configuration name="DeaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 34m 30s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="DeaTest - 2018.12.11 at 13h 04m 25s.xml">
+      <configuration name="DeaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 35m 49s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest - 2018.12.17 at 13h 19m 43s.xml">
+      <configuration name="ClobalPcodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 36m 02s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest - 2018.12.17 at 13h 20m 17s.xml">
+      <configuration name="ClobalPcodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 36m 49s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest - 2018.12.17 at 13h 20m 50s.xml">
+      <configuration name="ClobalPcodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 37m 19s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest_test1 - 2018.12.18 at 20h 42m 22s.xml">
+      <configuration name="ClobalPcodeTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 38m 19s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest_test1 - 2018.12.18 at 20h 43m 10s.xml">
+      <configuration name="ClobalPcodeTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 38m 31s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest_test1 - 2018.12.18 at 20h 43m 47s.xml">
+      <configuration name="ClobalPcodeTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest1_A1Test - 2018.11.20 at 16h 54m 12s.xml">
-      <configuration name="ExpressionCalculatorTest1.A1Test" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest_test1 - 2018.12.18 at 20h 44m 26s.xml">
+      <configuration name="ClobalPcodeTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpressionCalculatorTest2 - 2018.11.20 at 19h 43m 06s.xml">
-      <configuration name="ExpressionCalculatorTest2" configurationId="JUnit" />
+    <history-entry file="ClobalPcodeTest_test1 - 2018.12.18 at 20h 45m 45s.xml">
+      <configuration name="ClobalPcodeTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11336000" />
+    <option name="totallyTimeSpent" value="55649000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="964" y="0" width="956" height="1035" extended-state="0" />
+    <frame x="0" y="0" width="956" height="1035" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37362638" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25824177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -532,18 +712,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32781458" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30463576" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26048565" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289183" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.19977924" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.32671082" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289183" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.4271523" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32671082" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32560706" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -558,6 +738,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.tokens" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -568,14 +751,17 @@
     <MESSAGE value="beginning of A4" />
     <MESSAGE value="finished A1" />
     <MESSAGE value="semi-finished A4" />
-    <option name="LAST_COMMIT_MESSAGE" value="semi-finished A4" />
+    <MESSAGE value="finished A4" />
+    <MESSAGE value="finished A4 + extentions" />
+    <MESSAGE value="A7 initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="A7 initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java</url>
-          <line>89</line>
+          <url>file://$PROJECT_DIR$/gen/ExpressionCalculator/A1/recognizer1Parser.java</url>
+          <line>159</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -583,98 +769,332 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A2/recognizer2.g4" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A1/recognizer1.g4">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EndlicheAutomaten/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        <state relative-caret-position="105">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/timestamps">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t9.pcode">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EndlicheAutomaten/Graphviz.stg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionCalculator/A2/EvalVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionCalculator/A2/Calculator.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="6" column="4" selection-start-line="6" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A1/recognizer1Parser.java">
+    <entry file="jar:///usr/lib/jvm/java-11-jdk/lib/src.zip!/java.base/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+        <state relative-caret-position="19500">
+          <caret line="1386" selection-start-line="1386" selection-end-line="1386" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/asdf.java">
+    <entry file="file://$PROJECT_DIR$/gen/SyntaxgesteuerteUebersetzung/ClobalBaseListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1080">
+          <caret line="74" column="34" selection-start-line="74" selection-end-line="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/expressionCalculator/A2/EvalVisitor.java">
+    <entry file="file://$PROJECT_DIR$/gen/SyntaxgesteuerteUebersetzung/ClobalParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="214">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ExpressionCalculatorTest2.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/stringtemplate/4.0.2/stringtemplate-4.0.2.jar!/org/stringtemplate/v4/STGroupFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/AssemblerLexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="45" lean-forward="true" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/AssemblerParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/BytecodeAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/DisAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/FunctionSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/LabelSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/StackFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/StructSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/struct.pcode">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="69" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="34" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t2.pcode">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-jdk/lib/src.zip!/java.base/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="214">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/asdad.java">
+    <entry file="file://$PROJECT_DIR$/src/test/DeaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/expressionCalculator/A2/CalculatorParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/neq.clobal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/not.clobal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/printf.clobal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/uminus.clobal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/asdf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t.pcode">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/ParseTreeListeners.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t3.pcode">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t4.pcode">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t5.pcode">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t6.pcode">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t7.pcode">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/t8.pcode">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/funcCall.clobal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExpressionRecognizer/A4/TestEvalWithProps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/ifElse.clobal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/ifgt.clobal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/factorial.pcode">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StackInterpreter/loop.pcode">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/BytecodeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pCodeVM/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+          <folding>
+            <element signature="e#11694#11695#0" expanded="true" />
+            <element signature="e#11730#11731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/condExpr.clobal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/forTwice.clobal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ClobalProgs/for.clobal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/pcode.stg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-jdk/lib/src.zip!/java.base/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Clobal.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#27#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/ConvertAndTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ClobalPcodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SyntaxgesteuerteUebersetzung/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
           </folding>
         </state>
       </provider>
